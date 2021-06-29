@@ -3,9 +3,9 @@ import React from 'react';
 
 
 const Avatar = (props)=>{
-
     return (
-    <div className="container">
+        
+    <div className="box">
         <div className="img-container">
             <img src={props.image} className="image" alt="Avatar"></img>
         </div>
